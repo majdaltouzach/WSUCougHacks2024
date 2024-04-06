@@ -62,8 +62,15 @@ This program is a productivity tool designed to help users manage their tasks an
 
 Contributions to the project are welcome. Feel free to fork the repository, make improvements, and submit pull requests.
 
-### License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
-![e640c2e16659b66cfd94479edb3215da.png](../_resources/e640c2e16659b66cfd94479edb3215da.png)
+### Screenshot 1:
+![screenshot](https://github.com/majdaltouzach/WSUCougHacks2024/assets/93485057/5987c898-7554-44f0-a69b-77b85eb477c6)
+
+### Screenshot 2:
+![image](https://github.com/majdaltouzach/WSUCougHacks2024/assets/93485057/f053cbe0-02ae-4369-ad54-7921d32f755b)
+
+### Screenshot 3:
+![image](https://github.com/majdaltouzach/WSUCougHacks2024/assets/93485057/2f245b30-08df-4234-b7b7-27a657e3b65a)
+
+
