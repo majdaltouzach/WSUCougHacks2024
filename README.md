@@ -1,6 +1,9 @@
 # Suckless Pomodoro
 
-This program is a productivity tool designed to help users manage their tasks and improve their time management skills using the Pomodoro Technique. It includes features such as task management, activity logging, and a Pomodoro timer.
+This program is a *suckless* productivity app written in Java using the Swing GUI library meant for those who use the Pomodoro technique for their everyday workflow. Even though this program is written in Java, it applies to the *suckless* philosophy of *simple* & *Just works*. This helps boost the efficiency and workflow of a user who needs to focus on a list of tasks and go through the Pomodoro interval focusing on each task one at a time. All data is stored locally on the user's computer making it a privacy-respecting piece of software. 
+
+***Info on Pomodoro from Wikipedia***:
+*The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s.[1] It uses a kitchen timer to break work into intervals, typically 25 minutes in length, separated by short breaks. Each interval is known as a pomodoro, from the Italian word for tomato, after the tomato-shaped kitchen timer Cirillo used as a university student.*
 
 
 
