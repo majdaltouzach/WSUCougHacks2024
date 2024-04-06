@@ -40,7 +40,7 @@ public class ToDo extends JFrame implements ActionListener{
 	public ToDo(String user)
 	{
         this.user=user;
-        this.setTitle("Productivity++ - ToDo");
+        this.setTitle("Suckless Pomodoro - ToDo");
         this.setBounds(300, 60, 700, 600);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);

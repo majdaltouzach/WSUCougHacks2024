@@ -30,10 +30,11 @@ public class HomePage extends JFrame implements ActionListener{
 	
 	public static String user;
 	
+	// Initialization of HomePage
 	public HomePage(String user)
 	{
         this.user = user;
-        this.setTitle("Productivity++ - HomePage");
+        this.setTitle("Suckless Pomodoro - HomePage");
         this.setBounds(300, 60, 700, 600);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);

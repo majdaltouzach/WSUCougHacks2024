@@ -35,7 +35,7 @@ public class Activity  extends JFrame implements ActionListener{
 
 	
         this.user=user;
-        this.setTitle("Productivity++ - Activity Log");
+        this.setTitle("Suckless Pomodoro - Activity Log");
         this.setBounds(300, 60, 700, 600);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);

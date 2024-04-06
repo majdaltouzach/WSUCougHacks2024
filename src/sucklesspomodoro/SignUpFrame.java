@@ -40,7 +40,7 @@ public class SignUpFrame extends JFrame implements ActionListener{
     
     public SignUpFrame()
 	{
-		this.setTitle("Productivity++ - Sign Up");
+		this.setTitle("Suckless Pomodoro - Sign Up");
         this.setBounds(300, 60, 700, 600);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
@@ -155,9 +155,9 @@ public class SignUpFrame extends JFrame implements ActionListener{
 			      if(!check(idTextField.getText()))
 			      {
 			    	  done=true;
-			    	  FileWriter myWriter = new FileWriter(path,true);
-			    	  myWriter.write(fnTextField.getText()+" "+lnTextField.getText()+" "+idTextField.getText()+" "+passwordField.getText()+"\n");
-				      myWriter.close();
+			    	  FileWriter theWriter = new FileWriter(path,true);
+			    	  theWriter.write(fnTextField.getText()+" "+lnTextField.getText()+" "+idTextField.getText()+" "+passwordField.getText()+"\n");
+				      theWriter.close();
 				      JOptionPane.showMessageDialog(null, "Successfully Registered! Please Login to continue...","Confirmation", JOptionPane.WARNING_MESSAGE);
 			      }
 			      else
