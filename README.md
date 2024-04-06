@@ -61,7 +61,3 @@ This program is a productivity tool designed to help users manage their tasks an
 ### Contributing
 
 Contributions to the project are welcome. Feel free to fork the repository, make improvements, and submit pull requests.
-
-### License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
