@@ -1,4 +1,4 @@
-package com.majdaltouzach.sucklesspomodoro;
+package sucklesspomodoro;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -21,14 +21,14 @@ public class LoginFrame extends JFrame implements ActionListener {
 
 	Container container = getContentPane();
 	
-	JLabel appLabel = new JLabel("Productivity++");
+	JLabel appLabel = new JLabel("Suckless Pomodoro");
 	JLabel loglbl = new JLabel("LOGIN");
-	JLabel Teamlbl = new JLabel("Created By Team-4");
+	JLabel Teamlbl = new JLabel("By Toufic Majdalani");
 	JLabel userlbl = new JLabel("Username: ");
 	JLabel passlbl = new JLabel("Passowrd: ");
 	JLabel newlbl = new JLabel("New Here? ");
 	
-	JLabel bgImage = new JLabel(new ImageIcon("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//logo.png"));
+	JLabel bgImage = new JLabel(new ImageIcon("src/sucklesspomodoro/logo.png"));
 	
 	JTextField user = new JTextField();
 	JPasswordField pass = new JPasswordField();
@@ -39,10 +39,10 @@ public class LoginFrame extends JFrame implements ActionListener {
 	public LoginFrame() {
 		// TODO Auto-generated constructor stub
 		
-		this.setTitle("Productivity++ - A Pomodoro Application");
+		this.setTitle("Suckless Pomodoro");
 		this.setBounds(300, 50, 700, 600);
 		this.setResizable(false);
-		this.setIconImage(Toolkit.getDefaultToolkit().getImage("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//logo.png"));;
+		this.setIconImage(Toolkit.getDefaultToolkit().getImage("src/sucklesspomodoro/logo.png"));
 		
 		initializepage();
 		addActionEvent();
@@ -54,7 +54,7 @@ public class LoginFrame extends JFrame implements ActionListener {
 		
 		appLabel.setBounds(225, 0, 280, 100);
 		appLabel.setForeground(new Color(255, 255, 255));
-		appLabel.setFont(new Font("Arial Black",Font.BOLD,30));
+		appLabel.setFont(new Font("Arial Black",Font.BOLD,23));
 		//appLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		container.add(appLabel);
 		

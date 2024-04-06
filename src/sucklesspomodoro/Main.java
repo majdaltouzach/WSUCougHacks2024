@@ -1,4 +1,4 @@
-package com.majdaltouzach.sucklesspomodoro;
+package sucklesspomodoro;
 
 
 //PATH C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//

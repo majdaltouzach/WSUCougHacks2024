@@ -1,4 +1,4 @@
-package com.majdaltouzach.sucklesspomodoro;
+package sucklesspomodoro;
 
 import java.awt.Color;
 import java.awt.Container;
