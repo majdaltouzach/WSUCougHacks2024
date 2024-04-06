@@ -26,7 +26,7 @@ public class PomoTimer extends JFrame implements ActionListener{
 	public static String[] taskstring = new String[100];
 	public static String[][] workh = new String[100][2];
 	Container container = getContentPane();
-	JLabel bgImage = new JLabel(new ImageIcon("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//timerbg.png"));
+	JLabel bgImage = new JLabel(new ImageIcon("src/sucklesspomodoro/timerbg.png"));
 	JLabel time = new JLabel("00:00");
 	JLabel c=new JLabel("Pomodoro Count: 0");
 	JLabel taskname=new JLabel("");
@@ -45,12 +45,12 @@ public class PomoTimer extends JFrame implements ActionListener{
 		this.setResizable(false);
 		this.setResizable(false);
 		this.setLayout(null);
-		this.setIconImage(Toolkit.getDefaultToolkit().getImage("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//logo.png"));
+		this.setIconImage(Toolkit.getDefaultToolkit().getImage("src/sucklesspomodoro/logo.png"));
 	        
-		//String path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//"+user+".txt";
+		//String path = "src/sucklesspomodoro/"+user+".txt";
 		
 		try {
-			String path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//"+user+".txt";
+			String path = "src/sucklesspomodoro/"+user+".txt";
 			FileReader reader = new FileReader( path );
             BufferedReader br = new BufferedReader(reader);
             String line;
@@ -126,7 +126,7 @@ public class PomoTimer extends JFrame implements ActionListener{
 	
 	public void workhour(int circle , int min) {
 		int in=0,tmp;
-		String path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//workh.txt";
+		String path = "src/sucklesspomodoro/workh.txt";
 		try {
 			FileReader reader = new FileReader( path );
             BufferedReader br = new BufferedReader(reader);
@@ -154,7 +154,7 @@ public class PomoTimer extends JFrame implements ActionListener{
 		}
 		System.out.println(in);
 		
-		path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//workh.txt";
+		path = "src/sucklesspomodoro/workh.txt";
 		try {
 			
 			FileWriter myWriter = new FileWriter(path,false);

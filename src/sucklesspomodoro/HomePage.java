@@ -12,19 +12,19 @@ import java.awt.event.ActionListener;
 
 public class HomePage extends JFrame implements ActionListener{
 	Container container = getContentPane();
-	JLabel bgImage = new JLabel(new ImageIcon("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//homebg.png"));
+	JLabel bgImage = new JLabel(new ImageIcon("src/sucklesspomodoro/homebg.png"));
 	
 	JTextField userTextField = new JTextField();
 	
 	JLabel wlc=new JLabel("");
 	
-	Icon act = new ImageIcon("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//act.png");
+	Icon act = new ImageIcon("src/sucklesspomodoro/act.png");
 	JButton actbut = new JButton(act);
 	
-	Icon todo = new ImageIcon("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//todo.png");
+	Icon todo = new ImageIcon("src/sucklesspomodoro/todo.png");
 	JButton todobut = new JButton(todo);
 	
-	Icon pomo = new ImageIcon("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//pomo.png");
+	Icon pomo = new ImageIcon("src/sucklesspomodoro/pomo.png");
 	JButton pomobut = new JButton(pomo);
 	
 	
@@ -39,7 +39,7 @@ public class HomePage extends JFrame implements ActionListener{
         this.setResizable(false);
         this.setResizable(false);
         this.setLayout(null);
-        this.setIconImage(Toolkit.getDefaultToolkit().getImage("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//logo.png"));
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage("src/sucklesspomodoro/logo.png"));
         
         Initialize();
         addActionEvent();

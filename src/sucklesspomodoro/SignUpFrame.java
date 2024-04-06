@@ -21,11 +21,11 @@ import javax.swing.SwingConstants;
 public class SignUpFrame extends JFrame implements ActionListener{
 
 	
-	String path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//UserInfo.txt";
+	String path = "src/sucklesspomodoro/UserInfo.txt";
 	
 	Container sContainer = getContentPane();
 	
-	JLabel bgImage = new JLabel(new ImageIcon("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//signupbg.jpg"));
+	JLabel bgImage = new JLabel(new ImageIcon("src/sucklesspomodoro/signupbg.jpg"));
 	
 	JTextField fnTextField = new JTextField();
 	JTextField lnTextField = new JTextField();
@@ -44,7 +44,7 @@ public class SignUpFrame extends JFrame implements ActionListener{
         this.setBounds(300, 60, 700, 600);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
-        this.setIconImage(Toolkit.getDefaultToolkit().getImage("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//logo.png"));
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage("src/sucklesspomodoro/logo.png"));
 	
 		Initialize();
         addActionEvent();
@@ -173,7 +173,7 @@ public class SignUpFrame extends JFrame implements ActionListener{
 			
 			if(done==true) {
 		
-				path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//workh.txt";
+				path = "src/sucklesspomodoro/workh.txt";
 				try {
 					String email=idTextField.getText();
 					System.out.println(email);

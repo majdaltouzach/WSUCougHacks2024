@@ -25,7 +25,7 @@ public class Activity  extends JFrame implements ActionListener{
 	JLabel workh=new JLabel();
 	
 	Container container = getContentPane();
-	JLabel bgImage = new JLabel(new ImageIcon("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//homebg.png"));
+	JLabel bgImage = new JLabel(new ImageIcon("src/sucklesspomodoro/homebg.png"));
 	
 	JButton back=new JButton("Back");
 	
@@ -41,9 +41,9 @@ public class Activity  extends JFrame implements ActionListener{
         this.setResizable(false);
         this.setResizable(false);
         this.setLayout(null);
-        this.setIconImage(Toolkit.getDefaultToolkit().getImage("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//logo.png"));
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage("src/sucklesspomodoro/logo.png"));
         
-        String path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//workh.txt";
+        String path = "src/sucklesspomodoro/workh.txt";
 		try {
 			FileReader reader = new FileReader( path );
             BufferedReader br = new BufferedReader(reader);

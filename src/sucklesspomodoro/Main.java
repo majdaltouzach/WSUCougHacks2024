@@ -1,7 +1,7 @@
 package sucklesspomodoro;
 
 
-//PATH C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//
+//PATH src/sucklesspomodoro/
 
 public class Main {
 	public static void main(String[] a) {

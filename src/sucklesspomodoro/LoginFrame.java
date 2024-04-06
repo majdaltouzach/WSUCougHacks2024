@@ -142,7 +142,7 @@ public class LoginFrame extends JFrame implements ActionListener {
             passText = pass.getText();
             
 			try {
-				String path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//UserInfo.txt";
+				String path = "src/sucklesspomodoro/UserInfo.txt";
 				
 				
 				FileReader fr = new FileReader(path);

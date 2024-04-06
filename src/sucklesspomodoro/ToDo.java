@@ -27,7 +27,7 @@ public class ToDo extends JFrame implements ActionListener{
 	public static int count=0;
 	JLabel wlc=new JLabel("");
 	Container container = getContentPane();
-	JLabel bgImage = new JLabel(new ImageIcon("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//homebg.png"));
+	JLabel bgImage = new JLabel(new ImageIcon("src/sucklesspomodoro/homebg.png"));
 	
 	JTextArea list = new JTextArea();
 	JTextField add = new JTextField();
@@ -46,9 +46,9 @@ public class ToDo extends JFrame implements ActionListener{
         this.setResizable(false);
         this.setResizable(false);
         this.setLayout(null);
-        this.setIconImage(Toolkit.getDefaultToolkit().getImage("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//logo.png"));
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage("src/sucklesspomodoro/logo.png"));
         
-        String path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//"+user+".txt";
+        String path = "src/sucklesspomodoro/"+user+".txt";
         try {
         	FileReader reader = new FileReader( path );
             BufferedReader br = new BufferedReader(reader);
@@ -132,7 +132,7 @@ public class ToDo extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource()==addButton) {
-			String path = "C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//"+user+".txt";
+			String path = "src/sucklesspomodoro/"+user+".txt";
 			try {
 				
 				FileWriter myWriter = new FileWriter(path,true);
@@ -157,7 +157,7 @@ public class ToDo extends JFrame implements ActionListener{
 		}
 		if(e.getSource()==detelebut) {
 			System.out.println(user);
-			File file = new File("C://Users//Rafi//eclipse-workspace//Productivity++//src//Main//"+user+".txt"); 
+			File file = new File("src/sucklesspomodoro/"+user+".txt"); 
 			
 	        if(file.delete()) 
 	        { 
