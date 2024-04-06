@@ -39,7 +39,7 @@ public class PomoTimer extends JFrame implements ActionListener{
 	
 	public PomoTimer(String user) {
 		this.user=user;
-		this.setTitle("Productivity++ - Pomodoro Timer");
+		this.setTitle("Suckless Pomodoro - Productivity Timer");
 		this.setBounds(300, 60, 700, 600);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
